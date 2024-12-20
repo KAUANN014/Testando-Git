@@ -2,7 +2,7 @@ function DolarparaReal(Real, Dolar) {
     return Real / Dolar
 }
 document.getElementById('Real')
-var Real = parseInt(prompt('Quanto você tem em real?'), 10);
+var Real = parseInt(prompt('Quanto você tem em real R$?'), 10);
 
 var Dolar = 6.08;
 var Total = Real / Dolar;
